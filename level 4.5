@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int f(int n){
+    int s;
+    s=0;
+    for(int i=1;i<=n;i=i+1)
+        if(n%i==0) s=s+1;
+    return s;
+}
+int main(){
+int b;
+cin >> b;
+cout << "" << f(b);
+}
+    
