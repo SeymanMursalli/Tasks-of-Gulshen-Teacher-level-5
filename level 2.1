@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int f(int a, int b) {
+    if (a > b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+int main() {
+    int c, d;
+    cin >> c >> d;
+
+    int s = f(c, d);
+    cout << "Böyükdür: " << s;
+}
